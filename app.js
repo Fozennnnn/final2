@@ -705,7 +705,7 @@ function renderCartItems() {
     const itemEl = document.createElement('div');
     itemEl.className = 'cart-item';
     itemEl.innerHTML = `
-      <img src="${item.image}" alt="${item.chName}" class="cart-item-img" onerror="this.src='assets/images/李文豐鞋子網路商店_男生跑鞋.jpg'"title="這是男生跑鞋">
+      <img src="${item.image}" alt="${item.chName}" class="cart-item-img" onerror="this.src='assets/images/men_apex_runner.jpg'">
       <div class="cart-item-info">
         <div>
           <div class="cart-item-title">${item.chName}</div>
