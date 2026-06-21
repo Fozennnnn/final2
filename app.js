@@ -705,7 +705,7 @@ function renderCartItems() {
     const itemEl = document.createElement('div');
     itemEl.className = 'cart-item';
     itemEl.innerHTML = `
-      <img src="${item.image}" alt="${item.chName}" class="cart-item-img" onerror="this.src='assets/images/men_apex_runner.jpg'">
+      <img src="${item.image}" alt="${item.chName}" class="cart-item-img" onerror="this.src='assets/images/李文豐鞋子網路商店_男生跑鞋.jpg'"title="這是男生跑鞋">
       <div class="cart-item-info">
         <div>
           <div class="cart-item-title">${item.chName}</div>
@@ -960,9 +960,60 @@ function renderAbout() {
         </div>
         <div class="about-content">
           <h3>用科技重塑行走的定義</h3>
-          <p>StrideForge 創立於 2023 年，總部位於台灣台北。我們由一群熱愛極限運動的材料力學工程師、足部骨科醫學顧問以及頂尖街頭時尚設計師共同組建。我們的使命非常單純：打破傳統製鞋業的限制，將最新航天碳纖結構、高彈力發泡科技與天然親膚材料無縫融合。</p>
-          <p>我們深信，一雙好鞋不單是日常穿搭的配角，更是保護人體關節、延續運動壽命的智慧裝甲。不論您是挑戰馬拉松極限的專業運動員，抑或是每日在都市叢林中奮鬥的通勤族，StrideForge 皆為您的每一次踏步提供最為精密且澎湃的支撐力。</p>
-          <p>未來，我們將持續專注於可持續回收環保面料的開發，承諾在 2028 年前實現全系列產品 100% 碳中和製程，共同為地球的永續行走盡一份心力。</p>
+         <div style="font-family: 'Helvetica Neue', Helvetica, Arial, 'Microsoft JhengHei', sans-serif; color: #333333; line-height: 1.8; max-width: 800px; margin: 0 auto; padding: 20px;">
+    
+    <!-- 網頁主視覺區 -->
+    <div style="text-align: center; padding: 40px 20px; background-color: #f9f9f9; border-radius: 8px; margin-bottom: 30px;">
+        <h1 style="font-size: 32px; color: #1a1a1a; margin-top: 0; margin-bottom: 10px; font-weight: bold;">走得再遠，都有我們挺你｜李文豐鞋子專賣店</h1>
+        <p style="font-size: 18px; color: #666666; max-width: 600px; margin: 0 auto;">從日常通勤到戶外機能，精選百款好鞋與貼心配件，為懂穿也懂生活的你，找到最完美的落腳點。</p>
+    </div>
+
+    <!-- 關於我們 -->
+    <div style="margin-bottom: 40px; padding: 0 10px;">
+        <h2 style="font-size: 24px; color: #2c3e50; border-left: 5px solid #2c3e50; padding-left: 15px; margin-top: 0; margin-bottom: 20px; font-weight: bold;">關於我們</h2>
+        <div style="font-size: 17px; color: #555555; font-style: italic; border-left: 4px solid #dddddd; padding-left: 20px; margin: 0; line-height: 2;">
+            我們相信，一雙好鞋不只要好看，更要能陪你走得舒適、走得長遠。<br>
+            <strong>「李文豐鞋子專賣店」</strong>創立的初衷很簡單：希望成為每個人在挑選鞋履時，最值得信賴的【買 鞋 網站】與引領趨勢的【潮 鞋 網站】。不論你是需要尋找優質【女 鞋 品牌】的時尚女性、喜好尋找專屬【休閒 鞋 男】款的紳士，還是熱愛奔跑的運動員，我們都為你嚴格把關每一雙鞋的剪裁、材質與舒適度。
+        </div>
+    </div>
+
+    <div style="border-top: 1px solid #eeeeee; margin: 40px 0;"></div>
+
+    <!-- 特色區塊 -->
+    <div style="padding: 0 10px;">
+        <h2 style="font-size: 24px; color: #2c3e50; border-left: 5px solid #2c3e50; padding-left: 15px; margin-top: 0; margin-bottom: 25px; font-weight: bold;">精選核心系列</h2>
+        
+        <!-- 項目 1 -->
+        <div style="margin-bottom: 30px; background-color: #ffffff; padding: 20px; border: 1px solid #eeeeee; border-radius: 6px;">
+            <h3 style="font-size: 20px; color: #e67e22; margin-top: 0; margin-bottom: 12px; font-weight: bold;">👞 紳士名媛的日常美學</h3>
+            <p style="margin: 0; font-size: 16px;">
+                精選最懂襯托身形、修飾腳背的【厚底 樂 福 鞋】，我們提供豐富的【樂 福 鞋 推薦】款式，無論搭配商務正裝或休閒日常，都能輕鬆掌握【樂 福 鞋 穿 搭】的時尚精髓。此外，店內更備有兼具知性與極致體驗的【好 穿 高 跟 鞋】與百搭款【黑色 高 跟 鞋】，讓你隨時散發自信光芒。
+            </p>
+        </div>
+
+        <!-- 項目 2 -->
+        <div style="margin-bottom: 30px; background-color: #ffffff; padding: 20px; border: 1px solid #eeeeee; border-radius: 6px;">
+            <h3 style="font-size: 20px; color: #2980b9; margin-top: 0; margin-bottom: 12px; font-weight: bold;">🏃 機能與運動的完美防護</h3>
+            <p style="margin: 0; font-size: 16px;">
+                我們擁有極受好評的【運動 鞋 推薦】與專為跑者設計的【慢跑 鞋 推薦】系列，不論是經典百搭的【白色 運動 鞋】或充滿活力的【兒童 運動 鞋】皆一應俱全。面對多變氣候，不只有頂級防護的【gore tex 防水 鞋】與全方位【防水 鞋 推薦】，還有夏日戶外必備的【水陸 兩 用 鞋】與雨天救星【鞋子 防水 噴霧】。針對職人需求，我們更引進專業【工作 鞋 推薦】、高防護的【鋼 頭 鞋 推薦】與適合長時間走動的【護士 鞋 推薦】，在李文豐，機能與安全從不對美麗妥協。
+            </p>
+        </div>
+
+        <!-- 項目 3 -->
+        <div style="margin-bottom: 30px; background-color: #ffffff; padding: 20px; border: 1px solid #eeeeee; border-radius: 6px;">
+            <h3 style="font-size: 20px; color: #27ae60; margin-top: 0; margin-bottom: 12px; font-weight: bold;">❤️ 貼心照顧每一雙腳的特殊需求</h3>
+            <p style="margin: 0; font-size: 16px;">
+                大腳丫、通勤族或飽受腳痛之苦的你別擔心！我們特別規劃了深受商務男士喜愛的【男 休閒 鞋 推薦】專區、專為優雅身形設計的【大 尺碼 高 跟 鞋】，以及針對久站族減壓首選的【久 站 鞋 墊】。同時，我們更引進專為人體工學打造、完美貼合腳型的【拇指 外 翻 鞋】，讓每一步都像踩在雲朵般輕盈。
+            </p>
+        </div>
+    </div>
+
+    <!-- 頁尾宣告 -->
+    <div style="margin-top: 50px; background-color: #34495e; color: #ffffff; padding: 20px; border-radius: 6px; text-align: center; font-size: 15px; line-height: 1.8;">
+        <strong>李文豐鞋子專賣店</strong> 承諾提供最完整的尺寸與最安心的售後服務。如果您有任何尺寸、選鞋或工作職能上的疑問，歡迎隨時聯繫線上客服。我們會以如同【安全 鞋 專賣 店】般的專業規格與頂級職人精神，為您推薦最適合的完美鞋款！
+    </div>
+
+</div>
         </div>
       </div>
 
